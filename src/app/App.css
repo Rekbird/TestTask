@@ -1,0 +1,43 @@
+
+.AppMain {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+button {
+  height: 150px;
+  width: 150px;
+  background: transparent linear-gradient(238deg, #2562b1 0%, #56CCF2 100%) 0% 0% no-repeat padding-box;
+  border-radius: 26px;
+  border: 0px;
+  opacity: 1;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  outline: none;
+  transition: 0.5s;
+}
+
+  button:hover {
+      transition: 0.5s;
+      box-shadow:0 0 0 0.2rem rgba(26, 101, 161, 0.25);
+  }
+  
+  button:active {
+      box-shadow:0 0 0 0.2rem rgba(17, 63, 100, 0.63);
+      transition: ease-out;
+  }
